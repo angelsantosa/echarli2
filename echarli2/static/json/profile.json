@@ -1,0 +1,33 @@
+{
+    "id": 2,
+    "imagen": "http://lorempixel.com/45/45/people",
+    "nombre": "Mario González",
+    "perfil": "A",
+    "verificaciones": [{
+        "id": 1,
+        "description": "Correo electrónico",
+        "status": true
+    }, {
+        "id": 2,
+        "description": "Phone Number",
+        "status": true
+    }, {
+        "id": 3,
+        "description": "Facebook",
+        "status": false
+    }, {
+        "id": 4,
+        "description": "ID Card",
+        "status": true
+    }, {
+        "id:": 5,
+        "description": "Certificates",
+        "status": true
+    }],
+    "aboutme": "TRABAJO ACTUAL<br>CENTRO DE ESTUDIOS<br>MÉXICO<br>ESPAÑOL, ALEMÁN, INGLÉS",
+    "wishlist": [{
+        "id": 1,
+        "description": "Curso de algo",
+        "image": "http://lorempixel.com/274/200/"
+    }]
+}

@@ -1,0 +1,39 @@
+<% if(_.isEmpty(resultsJ)){ %>
+<div class="well well-sm">
+<h4>No hemos obtenido ningún resultado que se ajuste a tus criterios de búsqueda. Si los modificas, puede que tengas más suerte.</h4>
+<h5>Prueba con:</h5>
+<ul>
+	<li>Desactivar algunos filtros.</li>
+	<li>Amplía el área de búsqueda o el rango de precios.</li>
+	<li>Busca una ciudad, una dirección o un punto de referencia.</li>
+</ul>
+</div>
+<% } %>
+<% _.each(resultsJ, function(result){ %>
+	<% var user = _.findWhere(usersJ, {id: result.mentor}); %>
+
+		<div class="col-md-6 text-center result-card">
+			<div class="header-result cat-sax">
+				<img class="img-circle" style="height: 139px;
+width: 129px;"  src="http://i.imgur.com/Ny7wPWh.png" alt="A generic square placeholder image where only the portion within the circle circumscribed about said square is visible">
+				<h3><%- user.first_name %> <%- user.last_name %></h3>
+			</div>
+
+			<div class="description">
+				<div class="panel panel-white">
+					<div class="panel-body">
+						<p><%- result.course_name %></p>
+						<h6><%- result.location_state %>, <%- result.location_city %></h6>
+						<div class="incard-rating-container pull-left">
+							<input id="rc2" value="4" class="rating-loading" data-size="xs">
+							<b>$ <%- result.price_program %></b>
+						</div>
+						<div class="favs pull-right">
+							<a href="#"><i class="fa fa-heart fa-2x"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<% }); %>

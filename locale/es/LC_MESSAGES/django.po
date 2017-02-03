@@ -1,0 +1,679 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-13 11:46-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: echarli2/djangoapps/mentor/models.py:40
+#: echarli2/djangoapps/users/models.py:30
+msgid "Approved"
+msgstr ""
+
+#: echarli2/djangoapps/mentor/models.py:41
+#: echarli2/djangoapps/users/models.py:31
+msgid "File Missing"
+msgstr ""
+
+#: echarli2/djangoapps/mentor/models.py:42
+#: echarli2/djangoapps/users/models.py:32
+msgid "Approvingly"
+msgstr ""
+
+#: echarli2/djangoapps/mentor/models.py:43
+#: echarli2/djangoapps/users/models.py:33
+msgid "Reload"
+msgstr ""
+
+#: echarli2/djangoapps/mentor/models.py:44
+#: echarli2/djangoapps/users/models.py:34
+msgid "Suggested"
+msgstr ""
+
+#: echarli2/djangoapps/mentor/models.py:45
+#: echarli2/djangoapps/users/models.py:35
+msgid "Loadded"
+msgstr ""
+
+#: echarli2/djangoapps/mentor/models.py:53
+#: echarli2/djangoapps/users/models.py:43
+msgid "Apprentice"
+msgstr ""
+
+#: echarli2/djangoapps/mentor/models.py:54
+#: echarli2/djangoapps/users/models.py:44
+msgid "Mentor Candidate"
+msgstr ""
+
+#: echarli2/djangoapps/mentor/models.py:55
+#: echarli2/djangoapps/users/models.py:45
+msgid "Mentor"
+msgstr ""
+
+#: echarli2/djangoapps/users/models.py:20
+msgid "Name of User"
+msgstr ""
+
+#: echarli2/djangoapps/users/models.py:60
+msgid "Male"
+msgstr ""
+
+#: echarli2/djangoapps/users/models.py:61
+msgid "Female"
+msgstr ""
+
+#: echarli2/djangoapps/users/models.py:69
+msgid "Doctorate"
+msgstr ""
+
+#: echarli2/djangoapps/users/models.py:70
+msgid "Master's or professional degree"
+msgstr ""
+
+#: echarli2/djangoapps/users/models.py:71
+msgid "Bachelor's degree"
+msgstr ""
+
+#: echarli2/djangoapps/users/models.py:72
+msgid "Associate degree"
+msgstr ""
+
+#: echarli2/djangoapps/users/models.py:73
+msgid "Secondary/high school"
+msgstr ""
+
+#: echarli2/djangoapps/users/models.py:74
+msgid "Junior secondary/junior high/middle school"
+msgstr ""
+
+#: echarli2/djangoapps/users/models.py:75
+msgid "Elementary/primary school"
+msgstr ""
+
+#. Translators: 'None' refers to the student's level of education
+#: echarli2/djangoapps/users/models.py:77
+msgid "No Formal Education"
+msgstr ""
+
+#. Translators: 'Other' refers to the student's level of education
+#: echarli2/djangoapps/users/models.py:79
+msgid "Other Education"
+msgstr ""
+
+#: echarli2/templates/_navbar.html:22
+#: echarli2/templates/search/_navbar_search.html:25
+msgid "Manage your courses"
+msgstr "Administra tus cursos"
+
+#: echarli2/templates/_navbar.html:23
+#: echarli2/templates/search/_navbar_search.html:26
+msgid "Messages"
+msgstr ""
+
+#: echarli2/templates/_navbar.html:24
+#: echarli2/templates/index/_navbar_index.html:22
+#: echarli2/templates/search/_navbar_search.html:27
+msgid "Help"
+msgstr "Ayuda"
+
+#: echarli2/templates/_navbar.html:32
+#: echarli2/templates/search/_navbar_search.html:35
+msgid "Close session"
+msgstr "Cerrar sesión"
+
+#: echarli2/templates/account/email.html:6
+msgid "Account"
+msgstr ""
+
+#: echarli2/templates/account/email.html:12
+msgid "E-mail Addresses"
+msgstr ""
+
+#: echarli2/templates/account/email.html:14
+msgid "The following e-mail addresses are associated with your account:"
+msgstr ""
+
+#: echarli2/templates/account/email.html:28
+msgid "Verified"
+msgstr ""
+
+#: echarli2/templates/account/email.html:30
+msgid "Unverified"
+msgstr ""
+
+#: echarli2/templates/account/email.html:32
+msgid "Primary"
+msgstr ""
+
+#: echarli2/templates/account/email.html:38
+msgid "Make Primary"
+msgstr ""
+
+#: echarli2/templates/account/email.html:39
+msgid "Re-send Verification"
+msgstr ""
+
+#: echarli2/templates/account/email.html:40
+msgid "Remove"
+msgstr ""
+
+#: echarli2/templates/account/email.html:47
+msgid "Warning:"
+msgstr ""
+
+#: echarli2/templates/account/email.html:47
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr ""
+
+#: echarli2/templates/account/email.html:52
+msgid "Add E-mail Address"
+msgstr ""
+
+#: echarli2/templates/account/email.html:57
+msgid "Add E-mail"
+msgstr ""
+
+#: echarli2/templates/account/email.html:68
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr ""
+
+#: echarli2/templates/account/email_confirm.html:6
+#: echarli2/templates/account/email_confirm.html:13
+#: echarli2/templates/account/email_confirmed.html:6
+#: echarli2/templates/account/email_confirmed.html:13
+msgid "Confirm E-mail Address"
+msgstr ""
+
+#: echarli2/templates/account/email_confirm.html:19
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+
+#: echarli2/templates/account/email_confirm.html:23
+msgid "Confirm"
+msgstr ""
+
+#: echarli2/templates/account/email_confirm.html:30
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+
+#: echarli2/templates/account/email_confirmed.html:17
+#, python-format
+msgid ""
+"You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-"
+"mail address for user %(user_display)s."
+msgstr ""
+
+#: echarli2/templates/account/login.html:5
+#: echarli2/templates/account/login_content.html:9
+#: echarli2/templates/account/login_content.html:36
+#: echarli2/templates/index/_login_modal.html:16
+#: echarli2/templates/index/_login_modal.html:36
+msgid "Sign In"
+msgstr ""
+
+#: echarli2/templates/account/login_content.html:12
+#, python-format
+msgid ""
+"Please sign in with one\n"
+"      of your existing third party accounts. Or, <a href=\"%(signup_url)s"
+"\">sign up</a>\n"
+"      for a %(site_name)s account and sign in below:"
+msgstr ""
+
+#: echarli2/templates/account/login_content.html:22
+#: echarli2/templates/index/_login_modal.html:17
+msgid "or"
+msgstr ""
+
+#: echarli2/templates/account/login_content.html:37
+#: echarli2/templates/index/_login_modal.html:50
+msgid "Forgot Password?"
+msgstr ""
+
+#: echarli2/templates/account/logout.html:5
+#: echarli2/templates/account/logout.html:12
+#: echarli2/templates/account/logout.html:21
+msgid "Sign Out"
+msgstr ""
+
+#: echarli2/templates/account/logout.html:14
+msgid "Are you sure you want to sign out?"
+msgstr ""
+
+#: echarli2/templates/account/password_change.html:5
+#: echarli2/templates/account/password_change.html:11
+#: echarli2/templates/account/password_change.html:16
+#: echarli2/templates/account/password_reset_from_key.html:6
+#: echarli2/templates/account/password_reset_from_key.html:12
+#: echarli2/templates/account/password_reset_from_key_done.html:4
+#: echarli2/templates/account/password_reset_from_key_done.html:10
+msgid "Change Password"
+msgstr ""
+
+#: echarli2/templates/account/password_reset.html:7
+#: echarli2/templates/account/password_reset.html:14
+#: echarli2/templates/account/password_reset_done.html:6
+#: echarli2/templates/account/password_reset_done.html:12
+msgid "Password Reset"
+msgstr ""
+
+#: echarli2/templates/account/password_reset.html:19
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr ""
+
+#: echarli2/templates/account/password_reset.html:24
+msgid "Reset My Password"
+msgstr ""
+
+#: echarli2/templates/account/password_reset.html:27
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr ""
+
+#: echarli2/templates/account/password_reset_done.html:18
+msgid ""
+"We have sent you an e-mail. Please contact us if you do not receive it "
+"within a few minutes."
+msgstr ""
+
+#: echarli2/templates/account/password_reset_from_key.html:12
+msgid "Bad Token"
+msgstr ""
+
+#: echarli2/templates/account/password_reset_from_key.html:16
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+
+#: echarli2/templates/account/password_reset_from_key.html:22
+msgid "change password"
+msgstr ""
+
+#: echarli2/templates/account/password_reset_from_key.html:25
+#: echarli2/templates/account/password_reset_from_key_done.html:11
+msgid "Your password is now changed."
+msgstr ""
+
+#: echarli2/templates/account/password_set.html:6
+#: echarli2/templates/account/password_set.html:12
+#: echarli2/templates/account/password_set.html:17
+msgid "Set Password"
+msgstr ""
+
+#: echarli2/templates/account/signup.html:6
+msgid "Signup"
+msgstr ""
+
+#: echarli2/templates/account/signup.html:13
+#: echarli2/templates/account/signup.html:23
+#: echarli2/templates/index/_navbar_index.html:23
+msgid "Sign Up"
+msgstr ""
+
+#: echarli2/templates/account/signup.html:15
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+
+#: echarli2/templates/account/signup_closed.html:5
+#: echarli2/templates/account/signup_closed.html:11
+msgid "Sign Up Closed"
+msgstr ""
+
+#: echarli2/templates/account/signup_closed.html:13
+msgid "We are sorry, but the sign up is currently closed."
+msgstr ""
+
+#: echarli2/templates/account/verification_sent.html:5
+#: echarli2/templates/account/verification_sent.html:11
+#: echarli2/templates/account/verified_email_required.html:5
+#: echarli2/templates/account/verified_email_required.html:11
+msgid "Verify Your E-mail Address"
+msgstr ""
+
+#: echarli2/templates/account/verification_sent.html:13
+#, python-format
+msgid ""
+"We have sent an e-mail to <a href=\"mailto:%(email)s\">%(email)s</a> for "
+"verification. Follow the link provided to finalize the signup process. "
+"Please contact us if you do not receive it within a few minutes."
+msgstr ""
+
+#: echarli2/templates/account/verified_email_required.html:15
+msgid ""
+"This part of the site requires us to verify that\n"
+"        you are who you claim to be. For this purpose, we require that you\n"
+"        verify ownership of your e-mail address. "
+msgstr ""
+
+#: echarli2/templates/account/verified_email_required.html:19
+msgid ""
+"We have sent an e-mail to you for\n"
+"        verification. Please click on the link inside this e-mail. Please\n"
+"        contact us if you do not receive it within a few minutes."
+msgstr ""
+
+#: echarli2/templates/account/verified_email_required.html:23
+#, python-format
+msgid ""
+"<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
+"mail address</a>."
+msgstr ""
+
+#: echarli2/templates/index/_login_modal.html:46
+msgid "Remember Me"
+msgstr ""
+
+#: echarli2/templates/index/_navbar_index.html:24
+msgid "Log In"
+msgstr "Iniciar sesión"
+
+#: echarli2/templates/perfil/_content_.html:7
+msgid "Invite your friends to echarli and all obtain great benefits"
+msgstr "Invita a tus amigos a echarli y todos obtendrán grandes beneficios"
+
+#: echarli2/templates/perfil/_content_.html:10
+#: echarli2/templates/perfil/_content_.html:94
+#: echarli2/templates/perfil/_content_.html:99
+msgid "Invite a friend"
+msgstr "Invita a un amigo"
+
+#: echarli2/templates/perfil/_content_.html:20
+#: echarli2/templates/perfil/_content_.html:63
+msgid "Complete your profile"
+msgstr "Completa tu perfil"
+
+#: echarli2/templates/perfil/_content_.html:24
+msgid "Verifications"
+msgstr "Verificación de datos"
+
+#: echarli2/templates/perfil/_content_.html:27
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: echarli2/templates/perfil/_content_.html:28
+msgid "Phone Number"
+msgstr "Número de telefóno"
+
+#: echarli2/templates/perfil/_content_.html:29
+msgid "Facebook"
+msgstr "Facebook"
+
+#: echarli2/templates/perfil/_content_.html:30
+msgid "ID Card"
+msgstr "Documentos de ID"
+
+#: echarli2/templates/perfil/_content_.html:31
+msgid "Certificates"
+msgstr "Certificados"
+
+#: echarli2/templates/perfil/_content_.html:38
+msgid "About Me"
+msgstr "Acerca de mí"
+
+#: echarli2/templates/perfil/_content_.html:58
+msgid "Complete profile"
+msgstr "Completa perfil"
+
+#: echarli2/templates/perfil/_content_.html:64
+msgid ""
+"Our community is based on trust. So it is always important to know your face "
+"and have a brief description of the things that you are passionate about and "
+"would like to experience in eCharli."
+msgstr ""
+"Nuestra comunidad se basa en la confianza. Por eso siempre es importante "
+"conocer tu rostro y tener una breve descripción de las cosas que te "
+"apasionan y que te gustaría experimentar en eCharli."
+
+#: echarli2/templates/perfil/_content_.html:70
+msgid "Verify"
+msgstr "Verificar"
+
+#: echarli2/templates/perfil/_content_.html:75
+msgid "Verify your profile"
+msgstr "Verifica tu perfil"
+
+#: echarli2/templates/perfil/_content_.html:76
+msgid ""
+"In order to increase confidence in your profile, please help connecting your "
+"social networks, verifying your phone number, your email address and your "
+"personal identification."
+msgstr ""
+"Con el objetivo de aumentar la confianza en tu perfil, por favor ayúdanos "
+"conectando tus redes sociales, verificando tu número de teléfono, tu "
+"dirección de correo electrónico y tu identificación personal."
+
+#: echarli2/templates/perfil/_content_.html:82
+msgid "Schedule"
+msgstr "Agenda"
+
+#: echarli2/templates/perfil/_content_.html:87
+msgid "How to schedule a course"
+msgstr "Como agendar un curso"
+
+#: echarli2/templates/perfil/_content_.html:100
+msgid ""
+"Invite your friends to be part of the eCharli community, all will get great "
+"surprises."
+msgstr ""
+"Invita a tus amigos a ser parte de la omunidad de eCharli. Todos obtendrán "
+"grandes sorpresas."
+
+#: echarli2/templates/perfil/settings.html:6
+msgid "Profile"
+msgstr "Perfil"
+
+#: echarli2/templates/search/_navbar_search.html:22
+msgid "Search for"
+msgstr "Buscar por"
+
+#: echarli2/templates/search/search.html:14
+#: echarli2/templates/search/search.html:16
+msgid "Where"
+msgstr "Dónde"
+
+#: echarli2/templates/search/search.html:21
+msgid "Date"
+msgstr "Fecha"
+
+#: echarli2/templates/search/search.html:27
+msgid "Course"
+msgstr "Curso"
+
+#: echarli2/templates/search/search.html:43
+msgid "Photograph"
+msgstr "Fotografía"
+
+#: echarli2/templates/search/search.html:49
+msgid "kitchen"
+msgstr "Cocina"
+
+#: echarli2/templates/search/search.html:55
+msgid "Science"
+msgstr "Ciencia"
+
+#: echarli2/templates/search/search.html:61
+#: echarli2/templates/search/search.html:286
+msgid "Language"
+msgstr "Idioma"
+
+#: echarli2/templates/search/search.html:72
+msgid "Acordion"
+msgstr "Acordión"
+
+#: echarli2/templates/search/search.html:78
+msgid "Clarinet"
+msgstr "Clarinete"
+
+#: echarli2/templates/search/search.html:84
+msgid "Drums"
+msgstr "Percusiones"
+
+#: echarli2/templates/search/search.html:90
+msgid "Guitar"
+msgstr "Guitarra"
+
+#: echarli2/templates/search/search.html:96
+msgid "Voice"
+msgstr "Cánto"
+
+#: echarli2/templates/search/search.html:107
+msgid "Panoramic"
+msgstr "Panorámicas"
+
+#: echarli2/templates/search/search.html:113
+msgid "Black and White"
+msgstr "Blanco y Negro"
+
+#: echarli2/templates/search/search.html:119
+msgid "Digital"
+msgstr "Digital"
+
+#: echarli2/templates/search/search.html:125
+msgid "Shadows"
+msgstr "Sombras"
+
+#: echarli2/templates/search/search.html:131
+msgid "Street photography"
+msgstr "Fotografía Callejera"
+
+#: echarli2/templates/search/search.html:142
+msgid "French Flavors"
+msgstr "Sabores de Francia"
+
+#: echarli2/templates/search/search.html:148
+msgid "Mexican Antojitos"
+msgstr "Antojitos Mexicanos"
+
+#: echarli2/templates/search/search.html:154
+msgid "German sausages"
+msgstr "Salchichas Alemanas"
+
+#: echarli2/templates/search/search.html:160
+msgid "Wine and Cheese"
+msgstr "Vino y Queso"
+
+#: echarli2/templates/search/search.html:171
+msgid "Physics"
+msgstr "Física"
+
+#: echarli2/templates/search/search.html:177
+msgid "Biology"
+msgstr "Biología"
+
+#: echarli2/templates/search/search.html:183
+msgid "Chemistry"
+msgstr "Química"
+
+#: echarli2/templates/search/search.html:189
+msgid "Mathematics"
+msgstr "Matemáticas"
+
+#: echarli2/templates/search/search.html:195
+msgid "Sea Science"
+msgstr "Ciencias del Mar"
+
+#: echarli2/templates/search/search.html:206
+msgid "France"
+msgstr "Francés"
+
+#: echarli2/templates/search/search.html:212
+#: echarli2/templates/search/search.html:290
+msgid "English"
+msgstr "Inglés"
+
+#: echarli2/templates/search/search.html:218
+#: echarli2/templates/search/search.html:291
+msgid "German"
+msgstr "Alemán"
+
+#: echarli2/templates/search/search.html:224
+msgid "Russian"
+msgstr "Ruso"
+
+#: echarli2/templates/search/search.html:230
+#: echarli2/templates/search/search.html:289
+msgid "Spanish"
+msgstr "Español"
+
+#: echarli2/templates/search/search.html:247
+msgid "Course type"
+msgstr "Tipo de curso"
+
+#: echarli2/templates/search/search.html:250
+msgid "Individual Face"
+msgstr "Presencial individual"
+
+#: echarli2/templates/search/search.html:251
+msgid "Presencial Collective"
+msgstr "Presencial colectivo"
+
+#: echarli2/templates/search/search.html:252
+msgid "Remotely"
+msgstr "Individual Remoto"
+
+#: echarli2/templates/search/search.html:253
+msgid "Online"
+msgstr "En línea"
+
+#: echarli2/templates/search/search.html:259
+msgid "Price range"
+msgstr "Rango de precios"
+
+#: echarli2/templates/search/search.html:265
+msgid "Number of apprentices"
+msgstr "Número de aprendices"
+
+#: echarli2/templates/search/search.html:276
+msgid "Difficulty level"
+msgstr "Nivel de dificultad"
+
+#: echarli2/templates/search/search.html:279
+msgid "Basic"
+msgstr "Básico"
+
+#: echarli2/templates/search/search.html:280
+msgid "Intermediate"
+msgstr "Medio"
+
+#: echarli2/templates/search/search.html:281
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: echarli2/templates/search/search.html:292
+msgid "French"
+msgstr "Francés"
+
+#: echarli2/templates/search/search.html:299
+msgid "More Filters"
+msgstr "Más filtros"
+
+#: echarli2/templates/search/search.html:302
+msgid "Results"
+msgstr "Resultados"

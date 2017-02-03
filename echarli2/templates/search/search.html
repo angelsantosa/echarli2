@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load jsonify %}
+{% load staticfiles i18n %}
+    {% block navbar %}
+      {% include "search/_navbar_search.html" %}
+    {% endblock %}
+{% block content %}
+	<div class="container-fluid main-search"></div>
+{% endblock %}
+
+{% block extra_js %}
+	<script type="text/javascript">
+	require(['search/views/search_factory'], function (SearchFactory) {
+	    var fieldsData = {{fields|jsonify}} ;
+	    SearchFactory(fieldsData);
+	});
+	</script>
+{% endblock %}
+{% block footer %}{% endblock %}

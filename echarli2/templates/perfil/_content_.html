@@ -1,0 +1,138 @@
+{% load i18n %}
+
+{% if request.user.is_authenticated %}
+    <div class="row">
+<div class="col-md-12 text-center first-ad-profile">
+                <h3><span class="text-uppercase">
+                    {% trans "Invite your friends to echarli and all obtain great benefits" %}
+                </span></h3>
+
+            <button type="button" class="btn btn-green-echarli">{% trans "Invite a friend" %}</button>
+    </div></div> <!-- row echarli 2 -->
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="profile-edit text-center padding-10">
+                    <img data-src="holder.js/240x240" class="img-circle" alt="A generic square placeholder image where only the portion within the circle circumscribed about said square is visible">
+                    <h3>Mario González</h3>
+                    <button type="button" class="btn btn-green-echarli"><span class="text-uppercase">
+                    {% trans "Complete your profile" %}</span></button>
+                </div>
+                <div class="panel panel-charli">
+                    <div class="panel-heading">
+                        <h4>{% trans "Verifications" %}</h4>
+                    </div>
+                    <div class="panel-body">
+                        <div><span class="glyphicon glyphicon-ok text-primary"></span> {% trans "Email" %}</div>
+                        <div><span class="glyphicon glyphicon-ok text-primary"></span> {% trans "Phone Number" %}</div>
+                        <div><span class="glyphicon glyphicon-remove text-danger"></span>{% trans "Facebook" %}</div>
+                        <div><span class="glyphicon glyphicon-ok text-primary"></span> {% trans "ID Card" %}</div>
+                        <div><span class="glyphicon glyphicon-ok text-primary"></span> {% trans "Certificates" %} </div>
+
+                    </div>
+
+                </div>
+                <div class="panel panel-charli">
+                    <div class="panel-heading">
+                        <h4>{% trans "About Me" %}</h4>
+                    </div>
+                    <div class="panel-body">
+                        <div class="text-uppercase">Trabajo actual</div>
+                        <div class="text-uppercase">Centro de estudios</div>
+                        <div class="text-uppercase">México</div>
+                        <div class="text-uppercase">Español, Alemán, Inglés</div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-8">
+
+                <div class="row padding-5 complete-profile-ad">
+
+                    <div class="col-md-3  padding-5">
+                        <button class="btn btn-echarli-ad pull-left">
+                            <h3 class="egreen-text"><span class="glyphicon glyphicon-user"></span></h3>
+                            <h4>{% trans "Complete profile" %}</h4>
+                        </button>
+                    </div>
+
+                    <div class="col-md-9 pull-left">
+                        <h4>{% trans "Complete your profile" %}</h4>
+                        <p>{% trans "Our community is based on trust. So it is always important to know your face and have a brief description of the things that you are passionate about and would like to experience in eCharli." %}</p>
+                    </div>
+
+                    <div class="col-md-3  padding-5">
+                    <button class="btn btn-echarli-ad pull-left">
+                            <h3 class="egreen-text"><span class="glyphicon glyphicon-ok"></span></h3>
+                            <h4>{% trans "Verify" %}</h4>
+                        </button>
+                    </div>
+
+                    <div class="col-md-9 pull-left">
+                        <h4>{% trans "Verify your profile" %}</h4>
+                        <p>{% trans "In order to increase confidence in your profile, please help connecting your social networks, verifying your phone number, your email address and your personal identification." %}</p>
+                    </div>
+
+                    <div class="col-md-3  padding-5">
+                        <button class="btn btn-echarli-ad pull-left">
+                            <h3 class="egreen-text"><span class="glyphicon glyphicon-education"></span></h3>
+                            <h4>{% trans "Schedule" %}</h4>
+                        </button>
+                    </div>
+
+                    <div class="col-md-9 pull-left">
+                        <h4>{% trans "How to schedule a course" %}</h4>
+                        <p>En la siguiente sección podrás encontrar cómo agendar el curso que se se adapte a tus necesidades, cómo comunicarte con tu mentor y con los miembros de tu comunidad.</p>
+                    </div>
+
+                    <div class="col-md-3  padding-5">
+                        <button class="btn btn-echarli-ad pull-left">
+                            <h3 class="egreen-text"><span class="glyphicon glyphicon-gift"></span></h3>
+                            <h4>{% trans "Invite a friend" %}</h4>
+                        </button>
+                    </div>
+
+                    <div class="col-md-9 pull-left">
+                        <h4>{% trans "Invite a friend" %}</h4>
+                        <p>{% trans "Invite your friends to be part of the eCharli community, all will get great surprises." %}</p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                <h2>Wishlist</h2>
+
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="holder.js/274x200" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="holder.js/274x200" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="holder.js/274x200" alt="">
+                    </div>
+                </div>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+{% else %}
+<div class="login-message">
+    <h1>Necesitas acceder para visualizar esta página</h1>
+    <h2><a href="/accounts/login">Ingresa a eCharli</a></h2>
+</div>
+{% endif %}

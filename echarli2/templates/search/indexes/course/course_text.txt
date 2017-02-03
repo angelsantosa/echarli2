@@ -1,0 +1,2 @@
+{{object.course_name}}
+{{object.course_description}}

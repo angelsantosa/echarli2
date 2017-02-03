@@ -1,0 +1,60 @@
+{% load i18n %}
+{% load account %}
+{% load socialaccount %}
+<div class="login-modal"></div>
+<script type="text/template" id="modal-template">
+    <div class="bbm-modal__section">
+        <div class="modal-body modal-body-login">
+            <div class="alert alert-error" style="display:none;"></div>
+            <div class="socialaccount_providers">
+                {% include "socialaccount/snippets/provider_list.html" with process="login" %}
+            </div>
+            <form class="form-login form-vertical" onsubmit="return false;">
+                {% csrf_token %}
+                <div class="section-title">
+                    <h2>
+                    <span class="text">{% trans "Sign In" %}</span><br>
+                    <span class="text">{% trans 'or' %}&nbsp;</span>
+                    <a class="text text-echarli form-toggle register-account" href="{% url 'account_signup' %}">CREAR UNA CUENTA</a>
+                    </h2>
+                </div>
+                <div class="form-group">
+                    <span class="input-icon input-icon-right">
+                        <input type="email" class="form-control" placeholder="correo electrónico" name="email" id="email" aria-required="true" required>
+                        <i class="fa fa-envelope-o  "></i>
+                    </span>
+                </div>
+                <div class="form-group">
+                    <span class="input-icon input-icon-right">
+                        <input type="password" class="form-control" placeholder="contraseña" name="password" id="password" aria-required="true" required>
+                        <i class="fa   fa-lock"></i>
+                    </span>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <button id="sign-in-button" class="btn btn-lg btn-squared btn-green-echarli">{% trans "Sign In" %}</button>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <label class="checkbox-inline">
+                                <input id="login-remember" type="checkbox" value="false" class="grey" name="remember"
+                                aria-describedby="login-remember-desc">
+                                {% trans "Remember Me" %}
+                            </label>
+                        </div>
+                        <div class="col-md-7">
+                            <a href="{% url 'account_reset_password' %}" class="forgot-password field-link">{% trans "Forgot Password?" %}</a>
+                        </div>
+                    </div>
+                </div>
+                {% if redirect_field_value %}
+                    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+                {% endif %}
+            </form>
+        </div>
+    </div>
+</script>

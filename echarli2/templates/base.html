@@ -1,0 +1,47 @@
+<!doctype html>
+{% load staticfiles i18n %}
+{% block html_tag %}
+<html lang="" {% block angular-tag %}{% endblock angular-tag %}>
+{% endblock html_tag %}
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{% block title %}echarli2{% endblock title %}</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- To load translations -->
+        <script type="text/javascript" src="{% url 'django.views.i18n.javascript_catalog' %}"></script>
+
+        {% block css %}
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="{% static 'css/echarli.css' %}">
+        {% endblock %}
+        {% block extra_head %}
+        {% endblock %}
+
+        {% block requirejs %}
+        <script src="{% static 'js/core/require/require.js' %}"></script>
+        <script src="{% static 'js/require-config.js' %}"></script>
+        {% endblock %}
+    </head>
+    <body>
+    {% block navbar %}
+      {% include "_navbar.html" %}
+    {% endblock %}
+
+    {% block jumbotron_top %}
+    {% endblock %}
+    <div class="echarli-main space20">
+      {% block content %}
+        <div class="container" ui-view="content"></div>
+      {% endblock %}
+    </div>
+
+    {% block jumbotron_bot %}{% endblock %}
+
+    {% block footer %}
+      {% include "_footer.html" %}
+    {% endblock %}
+        {% block extra_js %}{% endblock %}
+    </body>
+</html>
