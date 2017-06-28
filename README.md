@@ -3,6 +3,7 @@ Crear ambiente:
 <i>
 mkvirtualenv --python=/usr/bin/python3.4 echarli2_env
 </i>
+
 Cargar el ambiente:
 ===================
 <i>
