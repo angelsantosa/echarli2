@@ -12,19 +12,19 @@ source ~/.virtualenvs/echarli2_env/bin/activate
  
 Instalación
 ============
-<i>
-  pip install --upgrade setuptools pip
-  pip install path.py
-  pip install BaseSettings
-  pip install django-countries
-  pip install jsonify
-  pip install geopy
-  >pip install corsheaders
-  >pip install slugfield
-  pip install django-slug-preview
-  pip install sites
-  pip install -r requirements/local.txt
-</i>
+
+* pip install --upgrade setuptools pip
+* pip install path.py
+* pip install BaseSettings
+* pip install django-countries
+* pip install jsonify
+* pip install geopy
+* pip install corsheaders
+* pip install slugfield
+* pip install django-slug-preview
+* pip install sites
+* pip install -r requirements/local.txt
+
  
 Compilar CSS (se utiliza SASS  de Ruby)
 =======================================
